@@ -1,0 +1,15 @@
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\bin\Debug\net7.0\WorkflowR.Notifications.Application.deps.json
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\bin\Debug\net7.0\WorkflowR.Notifications.Application.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\bin\Debug\net7.0\WorkflowR.Notifications.Application.pdb
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.csproj.AssemblyReference.cache
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.AssemblyInfoInputs.cache
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.AssemblyInfo.cs
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.csproj.CoreCompileInputs.cache
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\refint\WorkflowR.Notifications.Application.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.pdb
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\ref\WorkflowR.Notifications.Application.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\bin\Debug\net7.0\WorkflowR.Notifications.Domain.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\bin\Debug\net7.0\WorkflowR.Notifications.Domain.pdb
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Application\obj\Debug\net7.0\WorkflowR.Notifications.Application.csproj.CopyComplete

@@ -1,0 +1,12 @@
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\bin\Debug\net7.0\WorkflowR.Notifications.Infrastructure.deps.json
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\bin\Debug\net7.0\WorkflowR.Notifications.Infrastructure.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\bin\Debug\net7.0\WorkflowR.Notifications.Infrastructure.pdb
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.csproj.AssemblyReference.cache
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.AssemblyInfoInputs.cache
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.AssemblyInfo.cs
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\refint\WorkflowR.Notifications.Infrastructure.dll
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\WorkflowR.Notifications.Infrastructure.pdb
+E:\Kuba\Studia\PO\MGR\MastersThesis\WorkflowR\WorkflowR.Notifications\WorkflowR.Notifications.Infrastructure\obj\Debug\net7.0\ref\WorkflowR.Notifications.Infrastructure.dll
