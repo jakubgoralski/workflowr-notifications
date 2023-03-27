@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\WorkflowR.Notifications.Presentation.props" />
-</Project>
