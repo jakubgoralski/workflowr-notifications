@@ -1,21 +1,19 @@
 ﻿using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System.Text.Json;
 using System.Text;
 using WorkflowR.Notifications.Infrastructure.Clients.RabbitMq.Interfaces;
-using WorkflowR.Notifications.Infrastructure.Clients.RabbitMq.Providers.Interfaces;
+using WorkflowR.Notifications.Application.Messaging.Interfaces;
 
 namespace WorkflowR.Notifications.Infrastructure.Clients.RabbitMq
 {
-    internal class MessageBrokerSubscriber : IMessageBrokerSubscriber
+    internal class RabbitMqMessageSubscriber : IMessageSubscriber
     {
-        private readonly IConnection _connection;
         private readonly IModel _channel;
-        private readonly ILogger<MessageBrokerSubscriber> _logger;
+        private readonly ILogger<RabbitMqMessageSubscriber> _logger;
 
-        public MessageBrokerSubscriber(
-            ILogger<MessageBrokerSubscriber> logger,
+        public RabbitMqMessageSubscriber(
+            ILogger<RabbitMqMessageSubscriber> logger,
             IChannelFactory channelFactory)
         {
             _channel = channelFactory.Create();

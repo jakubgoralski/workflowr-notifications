@@ -2,7 +2,7 @@
 using RabbitMQ.Client;
 using WorkflowR.Notifications.Infrastructure.Clients.RabbitMq.Interfaces;
 using WorkflowR.Notifications.Infrastructure.Clients.RabbitMq;
-using WorkflowR.Notifications.Infrastructure.Services;
+using WorkflowR.Notifications.Application.Services;
 
 namespace WorkflowR.Notifications.Infrastructure.IoC
 {
@@ -20,8 +20,7 @@ namespace WorkflowR.Notifications.Infrastructure.IoC
 
             // Message Broker
             services.AddSingleton<IMessageBrokerProducer, MessageBrokerProducer>();
-            services.AddSingleton<IMessageBrokerSubscriber, MessageBrokerSubscriber>();
-            services.AddHostedService<MessageBrokerConsumerHostedService>();
+            services.AddSingleton<IMessageBrokerSubscriber, RabbitMqMessageSubscriber>();
 
             return services;  
         }
