@@ -7,7 +7,7 @@ namespace WorkflowR.Notifications.Application.IoC
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddHostedService<MessageBrokerConsumerHostedService>();
+            services.AddHostedService<MessageConsumerHostedService>();
 
             return services;
         }

@@ -4,13 +4,13 @@ using WorkflowR.Notifications.Application.Messaging.Interfaces;
 
 namespace WorkflowR.Notifications.Application.Services
 {
-    public class MessageBrokerConsumerHostedService : BackgroundService
+    public class MessageConsumerHostedService : BackgroundService
     {
-        private readonly ILogger<MessageBrokerConsumerHostedService> _logger;
+        private readonly ILogger<MessageConsumerHostedService> _logger;
         private readonly IMessageSubscriber _messageSubscriber;
 
-        public MessageBrokerConsumerHostedService(
-            ILogger<MessageBrokerConsumerHostedService> logger,
+        public MessageConsumerHostedService(
+            ILogger<MessageConsumerHostedService> logger,
             IMessageSubscriber messageSubscriber)
         {
             _logger = logger;
