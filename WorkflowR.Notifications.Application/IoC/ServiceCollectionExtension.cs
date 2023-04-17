@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using WorkflowR.Notifications.Application.Services;
+using WorkflowR.Notifications.Application.Messaging.Services;
 
 namespace WorkflowR.Notifications.Application.IoC
 {

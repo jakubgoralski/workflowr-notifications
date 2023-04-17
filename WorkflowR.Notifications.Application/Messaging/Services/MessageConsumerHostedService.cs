@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Logging;
 using WorkflowR.Notifications.Application.Messaging.Interfaces;
 
-namespace WorkflowR.Notifications.Application.Services
+namespace WorkflowR.Notifications.Application.Messaging.Services
 {
     public class MessageConsumerHostedService : BackgroundService
     {
