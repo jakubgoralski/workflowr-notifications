@@ -18,9 +18,9 @@ namespace WorkflowR.Notifications.Application.Emails.Services
         {
             SmtpClient smtpClient = new SmtpClient(_options.SmtpServer)
             {
-                Port = 587,
-                Credentials = new NetworkCredential(_options.Email, _options.Password),
                 EnableSsl = true,
+                Port = 587,
+                Credentials = new NetworkCredential(_options.Email, _options.Password)
             };
 
             MailMessage mailMessage = new MailMessage
