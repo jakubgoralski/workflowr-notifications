@@ -13,7 +13,7 @@ namespace WorkflowR.Notifications.Infrastructure.IoC
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
             // Email
-            services.AddTransient<IEmailService, EmailService>();
+            services.AddSingleton<IEmailService, EmailService>();
 
             // RabbitMq
             var factory = new ConnectionFactory { HostName = "localhost" };
