@@ -16,7 +16,7 @@ namespace WorkflowR.Notifications.Infrastructure.IoC
             services.AddSingleton<IEmailService, EmailService>();
 
             // RabbitMq
-            var factory = new ConnectionFactory { HostName = "localhost" };
+            var factory = new ConnectionFactory { HostName = "rabbitmq" };
             var connection = factory.CreateConnection();
             services.AddSingleton(connection);
             services.AddSingleton<IConnectionFactory, ConnectionFactory>();
