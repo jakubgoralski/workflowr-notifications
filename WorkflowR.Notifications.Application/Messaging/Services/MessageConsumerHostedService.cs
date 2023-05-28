@@ -25,8 +25,8 @@ namespace WorkflowR.Notifications.Application.Messaging.Services
         {
             _messageSubscriber.Subscribe((msg) =>
             {
-                _logger.LogInformation($"BCK SERVICE {msg} is received");
-                _emailService.Send("jakubgoralski95@gmail.com", "WorkflowR Test", "Content Test");
+                _logger.LogInformation($"BCK SERVICE {msg.message} is received");
+                _emailService.Send(msg.emailTo, "WorkflowR Test", msg.message);
             });
 
             return Task.CompletedTask;

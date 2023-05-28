@@ -4,6 +4,8 @@ using RabbitMQ.Client.Events;
 using System.Text;
 using WorkflowR.Notifications.Infrastructure.Clients.RabbitMq.Interfaces;
 using WorkflowR.Notifications.Application.Messaging.Interfaces;
+using WorkflowR.Notifications.Application.Messaging;
+using System.Text.Json;
 
 namespace WorkflowR.Notifications.Infrastructure.Clients.RabbitMq
 {
@@ -20,7 +22,7 @@ namespace WorkflowR.Notifications.Infrastructure.Clients.RabbitMq
             _logger = logger;
         }
 
-        public void Subscribe(Action<string> action)
+        public void Subscribe(Action<EmailObject> action)
         {
             _channel.ExchangeDeclare("jgexchange", "topic");
             _channel.QueueDeclare("jgqueue");
@@ -30,11 +32,12 @@ namespace WorkflowR.Notifications.Infrastructure.Clients.RabbitMq
             consumer.Received += (ch, ea) =>
             {
                 var body = ea.Body.ToArray();
+                var emailobject = JsonSerializer.Deserialize<EmailObject>(body);
                 var message = Encoding.UTF8.GetString(body);
 
-                _logger.LogInformation($"SUBCRIBER {message} message has been received.");
+                _logger.LogInformation($"SUBCRIBER {emailobject.message} message has been received.");
 
-                action(message);
+                action(emailobject);
 
                 _channel.BasicAck(ea.DeliveryTag, multiple: false);
             };

@@ -2,6 +2,6 @@
 {
     public interface IMessageSubscriber
     {
-        void Subscribe(Action<string> action);
+        void Subscribe(Action<EmailObject> action);
     }
 }
