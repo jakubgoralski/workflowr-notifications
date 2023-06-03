@@ -5,24 +5,9 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Infrastructure", "WorkflowR.Notifications.Infrastructure\WorkflowR.Notifications.Infrastructure.csproj", "{A08D5831-7972-4517-A651-E78EA209E86A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Domain", "WorkflowR.Notifications.Domain\WorkflowR.Notifications.Domain.csproj", "{98E2FC2F-D271-49A8-A81D-C0CD9275A082}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Application", "WorkflowR.Notifications.Application\WorkflowR.Notifications.Application.csproj", "{395A4145-08ED-42E8-8EC1-B52403CDE3DD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Presentation", "WorkflowR.Notifications.Presentation\WorkflowR.Notifications.Presentation.csproj", "{3BB54765-5A18-44B1-A617-D47280410B00}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Domain.UnitTests", "WorkflowR.Notifications.Domain.UnitTests\WorkflowR.Notifications.Domain.UnitTests.csproj", "{EB30AE21-ACCC-4ABC-A0D9-6A28A38C54DB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Infrastructure.UnitTests", "WorkflowR.Notifications.Infrastructure.UnitTests\WorkflowR.Notifications.Infrastructure.UnitTests.csproj", "{AAC9579F-B41C-445F-A787-6D9A8C98879C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Application.UnitTests", "WorkflowR.Notifications.Application.UnitTests\WorkflowR.Notifications.Application.UnitTests.csproj", "{8488FF11-4F2B-46E3-B811-C9CDD89B152F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowR.Notifications.Application.FunctionalTests", "WorkflowR.Notifications.Application.FunctionalTests\WorkflowR.Notifications.Application.FunctionalTests.csproj", "{FDCD931C-A013-4577-AE5C-22C7F14F7BCB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{5FF85D04-CB28-46FB-91A5-FD286439D985}"
-	ProjectSection(SolutionItems) = preProject
-		WorkflowR.Notifications.Presentation\Dockerfile = WorkflowR.Notifications.Presentation\Dockerfile
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +19,6 @@ Global
 		{A08D5831-7972-4517-A651-E78EA209E86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A08D5831-7972-4517-A651-E78EA209E86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A08D5831-7972-4517-A651-E78EA209E86A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98E2FC2F-D271-49A8-A81D-C0CD9275A082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98E2FC2F-D271-49A8-A81D-C0CD9275A082}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98E2FC2F-D271-49A8-A81D-C0CD9275A082}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98E2FC2F-D271-49A8-A81D-C0CD9275A082}.Release|Any CPU.Build.0 = Release|Any CPU
 		{395A4145-08ED-42E8-8EC1-B52403CDE3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{395A4145-08ED-42E8-8EC1-B52403CDE3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{395A4145-08ED-42E8-8EC1-B52403CDE3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,22 +27,6 @@ Global
 		{3BB54765-5A18-44B1-A617-D47280410B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB54765-5A18-44B1-A617-D47280410B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB54765-5A18-44B1-A617-D47280410B00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB30AE21-ACCC-4ABC-A0D9-6A28A38C54DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB30AE21-ACCC-4ABC-A0D9-6A28A38C54DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB30AE21-ACCC-4ABC-A0D9-6A28A38C54DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB30AE21-ACCC-4ABC-A0D9-6A28A38C54DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAC9579F-B41C-445F-A787-6D9A8C98879C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAC9579F-B41C-445F-A787-6D9A8C98879C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAC9579F-B41C-445F-A787-6D9A8C98879C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAC9579F-B41C-445F-A787-6D9A8C98879C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8488FF11-4F2B-46E3-B811-C9CDD89B152F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8488FF11-4F2B-46E3-B811-C9CDD89B152F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8488FF11-4F2B-46E3-B811-C9CDD89B152F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8488FF11-4F2B-46E3-B811-C9CDD89B152F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDCD931C-A013-4577-AE5C-22C7F14F7BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDCD931C-A013-4577-AE5C-22C7F14F7BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDCD931C-A013-4577-AE5C-22C7F14F7BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDCD931C-A013-4577-AE5C-22C7F14F7BCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
